@@ -90,6 +90,7 @@ class SimpsonsCars
     {
         while($this->getCurrentSpeed() > 0) {
             $this->currentSpeed -= 10 ;
+            echo  'vitesse  : ' . $this->getCurrentSpeed() . 'KM/H<br>';
         }
     }
 }
